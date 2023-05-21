@@ -1,0 +1,48 @@
+{
+  "name": "minesweeper",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "cross-env NODE_ENV=development webpack serve",
+    "dev": "cross-env NODE_ENV=development webpack",
+    "build": "cross-env NODE_ENV=production webpack",
+    "clear": "rd /s /q dist"
+  },
+  "author": "Dmitry Strizhakov",
+  "license": "ISC",
+  "keywords": [
+    "minesweeper",
+    "js",
+    "webpack",
+    "rsschool"
+  ],
+  "description": "minesweeper game",
+  "devDependencies": {
+    "@babel/core": "^7.21.8",
+    "@babel/preset-env": "^7.21.5",
+    "babel-loader": "^9.1.2",
+    "copy-webpack-plugin": "^11.0.0",
+    "cross-env": "^7.0.3",
+    "css-loader": "^6.7.4",
+    "eslint": "^8.41.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "file-loader": "^6.2.0",
+    "html-loader": "^4.2.0",
+    "html-webpack-plugin": "^5.5.1",
+    "mini-css-extract-plugin": "^2.7.6",
+    "postcss": "^8.4.23",
+    "postcss-loader": "^7.3.0",
+    "postcss-preset-env": "^8.4.1",
+    "sass": "^1.62.1",
+    "sass-loader": "^13.2.2",
+    "style-loader": "^3.3.3",
+    "terser-webpack-plugin": "^5.3.9",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.83.1",
+    "webpack-cli": "^5.1.1",
+    "webpack-dev-server": "^4.15.0"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1"
+  }
+}
